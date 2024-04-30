@@ -12,6 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# 雑感
+# ROS2とPythonで作って学ぶAIロボット入門におけるP249のものの比較した感想として
+# こちらのlaunchファイルは，navigation2_tutorialのROSパッケージを利用していることが目立つ．
+# 書籍におけるlaunchファイルは，既存パッケージを利用しているため，パスの指定等がない．
+
+
 import os
 
 from ament_index_python.packages import get_package_share_directory
